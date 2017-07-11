@@ -1,0 +1,8 @@
+#current-temp {
+   cursor: pointer;
+}
+
+.container {
+   background-color: #d9d9d9;
+   border: 8px groove #8c8c8c;
+}
