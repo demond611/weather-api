@@ -1,0 +1,30 @@
+<div class="container text-center">
+   <header>
+      <h1>My Weather App</h1>
+   </header>
+   <div class="row">
+      <div class="col-md-12">
+         Enter your 5 digit US zip code to search for the weather in your area.
+      </div>
+      <div class="col-md-12">
+         <form class="form-inline">
+            <fieldset class="form-group">
+               <label for="formGroupExampleInput"></label>
+               <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Zip Code">
+            </fieldset>
+            <button type="button" class="btn btn-primary bt-sm" onClick=GetWeather()>Go</button>
+         </form>
+      </div>
+   </div>
+   <div class="row">
+      <h3 id="weather-name"></h3>
+      <h2>
+         <span id="current-temp" data-nexttemp="c"></span>
+     </h2>
+      <h4 id="todaysHigh"></h4>
+      <h4 id="todaysLow"></h4>
+   </div>
+   <footer>
+      <h6>FreeCodeCamp Project</h6>
+   </footer
+</div>
